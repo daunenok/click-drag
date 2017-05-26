@@ -1,0 +1,22 @@
+.container {
+	height: 300px;
+	overflow: hidden;
+	display: flex;
+	margin: 50px auto;
+	transition: all 0.3s;
+}
+img {
+	margin-right: 10px;
+}
+img:last-child {
+	margin-right: 0;
+}
+h1 {
+	text-align: center;
+	font-family: cursive;
+	font-weight: bold;
+}
+.active {
+	transform: scale(1.05);
+	cursor: move;
+}
